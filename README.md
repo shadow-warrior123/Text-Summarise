@@ -70,6 +70,30 @@ To run the application using Docker:
    docker run -p 8080:8080 scribe-ai
    ```
 
+
+## 🧪 Functional Verification (Proof of Work)
+
+The system has been verified through an end-to-end test. Below is a real execution of the application summarizing a project description.
+
+**Functional Result Screenshot:**
+
+![Functional Verification](result.png)
+
+### Directory Structure Proof
+
+```text
+Text-Summarise/
+├── src/                    # Source Code
+│   ├── text_summarizer/
+│   │   ├── pipeline/       # Prediction Logic
+│   │   ├── config/         # Configuration Management
+│   │   └── utils/          # Utility Functions
+├── templates/              # Frontend HTML
+├── Dockerfile              # Deployment Configuration
+├── app.py                  # Main Entry Point
+└── requirements.txt        # Dependencies
+```
+
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
